@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I.\Lib\inc -I.\User_Src -I.\StartUp -I.\Lib\Include -I.\HardWareDriver 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -DSTM32F4XX -o ".\OutPut\usart1config.o" --omf_browse ".\OutPut\usart1config.crf" --depend ".\OutPut\usart1config.d" "HardWareDriver\USART1ConFig.c"

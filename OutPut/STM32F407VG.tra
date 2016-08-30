@@ -1,0 +1,77 @@
+*** Creating Trace Output File '.\OutPut\STM32F407VG.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\startup_stm32f4xx.o"'
+### List of Objects: adding '".\output\system_stm32f4xx.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f4xx_adc.o"'
+### List of Objects: adding '".\output\stm32f4xx_can.o"'
+### List of Objects: adding '".\output\stm32f4xx_crc.o"'
+### List of Objects: adding '".\output\stm32f4xx_cryp.o"'
+### List of Objects: adding '".\output\stm32f4xx_cryp_aes.o"'
+### List of Objects: adding '".\output\stm32f4xx_cryp_des.o"'
+### List of Objects: adding '".\output\stm32f4xx_cryp_tdes.o"'
+### List of Objects: adding '".\output\stm32f4xx_dac.o"'
+### List of Objects: adding '".\output\stm32f4xx_dbgmcu.o"'
+### List of Objects: adding '".\output\stm32f4xx_dcmi.o"'
+### List of Objects: adding '".\output\stm32f4xx_dma.o"'
+### List of Objects: adding '".\output\stm32f4xx_exti.o"'
+### List of Objects: adding '".\output\stm32f4xx_flash.o"'
+### List of Objects: adding '".\output\stm32f4xx_fsmc.o"'
+### List of Objects: adding '".\output\stm32f4xx_gpio.o"'
+### List of Objects: adding '".\output\stm32f4xx_hash.o"'
+### List of Objects: adding '".\output\stm32f4xx_hash_md5.o"'
+### List of Objects: adding '".\output\stm32f4xx_hash_sha1.o"'
+### List of Objects: adding '".\output\stm32f4xx_i2c.o"'
+### List of Objects: adding '".\output\stm32f4xx_iwdg.o"'
+### List of Objects: adding '".\output\stm32f4xx_pwr.o"'
+### List of Objects: adding '".\output\stm32f4xx_rcc.o"'
+### List of Objects: adding '".\output\stm32f4xx_rng.o"'
+### List of Objects: adding '".\output\stm32f4xx_rtc.o"'
+### List of Objects: adding '".\output\stm32f4xx_sdio.o"'
+### List of Objects: adding '".\output\stm32f4xx_spi.o"'
+### List of Objects: adding '".\output\stm32f4xx_syscfg.o"'
+### List of Objects: adding '".\output\stm32f4xx_tim.o"'
+### List of Objects: adding '".\output\stm32f4xx_usart.o"'
+### List of Objects: adding '".\output\stm32f4xx_wwdg.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f4xx_it.o"'
+### List of Objects: adding '".\output\mpu6500.o"'
+### List of Objects: adding '".\output\led.o"'
+### List of Objects: adding '".\output\pwm_output.o"'
+### List of Objects: adding '".\output\key.o"'
+### List of Objects: adding '".\output\at45db161.o"'
+### List of Objects: adding '".\output\lcd.o"'
+### List of Objects: adding '".\output\ms5611.o"'
+### List of Objects: adding '".\output\gpu_2.8b.o"'
+### List of Objects: adding '".\output\at_command.o"'
+### List of Objects: adding '".\output\hmc5883l.o"'
+### List of Objects: adding '".\output\mpu6050.o"'
+### List of Objects: adding '".\output\delay.o"'
+### List of Objects: adding '".\output\usart2.o"'
+### List of Objects: adding '".\output\uart1.o"'
+### List of Objects: adding '".\output\usart1dmatx.o"'
+### List of Objects: adding '".\output\osqmem.o"'
+### List of Objects: adding '".\output\adc_dma.o"'
+### List of Objects: adding '".\output\spi1_dma.o"'
+### List of Objects: adding '".\output\spi2.o"'
+### List of Objects: adding '".\output\spi3.o"'
+### List of Objects: adding '".\output\ioi2c.o"'
+### List of Objects: adding '".\output\fmath.o"'
+### List of Objects: adding '".\output\imu.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\output\startup_stm32f4xx.o" ".\output\system_stm32f4xx.o" ".\output\misc.o" ".\output\stm32f4xx_adc.o" ".\output\stm32f4xx_can.o" ".\output\stm32f4xx_crc.o" ".\output\stm32f4xx_cryp.o" ".\output\stm32f4xx_cryp_aes.o" ".\output\stm32f4xx_cryp_des.o" ".\output\stm32f4xx_cryp_tdes.o" ".\output\stm32f4xx_dac.o" ".\output\stm32f4xx_dbgmcu.o" ".\output\stm32f4xx_dcmi.o" ".\output\stm32f4xx_dma.o" ".\output\stm32f4xx_exti.o" ".\output\stm32f4xx_flash.o" ".\output\stm32f4xx_fsmc.o" ".\output\stm32f4xx_gpio.o" ".\output\stm32f4xx_hash.o" ".\output\stm32f4xx_hash_md5.o" ".\output\stm32f4xx_hash_sha1.o" ".\output\stm32f4xx_i2c.o" ".\output\stm32f4xx_iwdg.o" ".\output\stm32f4xx_pwr.o" ".\output\stm32f4xx_rcc.o" ".\output\stm32f4xx_rng.o" ".\output\stm32f4xx_rtc.o" ".\output\stm32f4xx_sdio.o" ".\output\stm32f4xx_spi.o" ".\output\stm32f4xx_syscfg.o" ".\output\stm32f4xx_tim.o" ".\output\stm32f4xx_usart.o" ".\output\stm32f4xx_wwdg.o" ".\output\main.o" ".\output\stm32f4xx_it.o" ".\output\mpu6500.o" ".\output\led.o" ".\output\pwm_output.o" ".\output\key.o" ".\output\at45db161.o" ".\output\lcd.o" ".\output\ms5611.o" ".\output\gpu_2.8b.o" ".\output\at_command.o" ".\output\hmc5883l.o" ".\output\mpu6050.o" ".\output\delay.o" ".\output\usart2.o" ".\output\uart1.o" ".\output\usart1dmatx.o" ".\output\osqmem.o" ".\output\adc_dma.o" ".\output\spi1_dma.o" ".\output\spi2.o" ".\output\spi3.o" ".\output\ioi2c.o" ".\output\fmath.o" ".\output\imu.o" 
+--strict --scatter ".\OutPut\STM32F407VG.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\STM32F407VG.map" -o .\OutPut\STM32F407VG.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\OutPut\STM32F407VG.axf'
+### ADS-LD Command File: '.\OutPut\STM32F407VG.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\OutPut\STM32F407VG.lnp', Handle=0x00000570
+### Writing '.lnp' file
+### ADS-LD Command file '.\OutPut\STM32F407VG.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

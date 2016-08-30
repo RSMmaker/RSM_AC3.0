@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork -I.\Lib\inc -I.\User_Src -I.\StartUp -I.\Lib\Include -I.\HardWareDriver -I.\HardWareDriver\UART1 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -DSTM32F4XX -o ".\OutPut\hmc5983.o" --omf_browse ".\OutPut\hmc5983.crf" --depend ".\OutPut\hmc5983.d" "HardWareDriver\HMC5983.C"
