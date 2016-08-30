@@ -11,7 +11,6 @@ int main()
 	Init_MPU6500();
 	while(1)
 	{
-		delay_ms(10);
 		delay_ms(100);
 		SPI_MPU_Read();
 		
